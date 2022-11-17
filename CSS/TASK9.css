@@ -1,0 +1,109 @@
+body{
+    margin: 0%;
+    text-align: center;
+    background: linear-gradient(#02aab0, #00cdac);
+}
+
+.links{
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-family: 'Cutive Mono', monospace;
+}
+
+.links a{
+    color: aqua;
+}
+
+.links a:hover{
+    font-size: 23px;
+    color: indigo;
+}
+
+#welcome{
+    background: linear-gradient(#360033, #0b8793);
+}
+.profile{
+    border-radius: 40%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+h1{
+    color: lightskyblue;
+    font-family: 'Kumar One Outline', cursive;
+}
+h2{
+    color:#360033;
+    font-family: 'Caveat', cursive;
+}
+
+#gh1{
+    font-family: 'Berkshire Swash', cursive;
+    color: mintcream;
+}
+
+.imgsec{
+    background: linear-gradient(#43cea2, #185a9d);
+    width: 98%;
+    height: 70%;
+    margin: auto;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+img{
+    border: 2px solid aqua;
+    border-radius: 30px;
+}
+
+
+#d1,#d2,#d3,#d4,#d5,#d6,#d7,#d8{
+    display: inline;
+    padding: 60px; 
+}
+
+.name p{
+    width: 100%;
+    height: 25px;
+    font-family: 'Limelight', cursive;
+    color:rgb(77, 23, 116);
+    font-size: 18px;
+}
+
+#about{
+    width: 98%;
+    height:350px;
+    padding: 10px;
+    margin-top: 3px;
+    background-color: darkturquoise;
+}
+
+.aboutsec h3{
+    font-size: 40px;
+    font-family: 'Kaushan Script', cursive;
+    color:#360033;
+}
+
+.aboutsec h3:hover{
+    color:aliceblue;
+}
+
+label{
+    color:maroon;
+    font-family: 'Amita', cursive;
+}
+
+#contact{
+    background-color: #360033;
+    width: 100%;
+    height: 270px;
+}
+.con{
+    margin-top: 225px;
+    width:30%;
+    height: 15px;
+    background-color: aqua;
+    padding: 2px;  
+}

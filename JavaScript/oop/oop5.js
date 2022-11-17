@@ -1,0 +1,5 @@
+// inheritance class-38
+
+
+
+

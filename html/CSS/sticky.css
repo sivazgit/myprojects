@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Pacifico&display=swap');
+
+div {
+    background-color: pink;
+    position: sticky;
+    top: 0px;
+    font-family: 'Pacifico', cursive;
+}
+
+#p1 {
+    font-size: 50px;
+    font-family: 'Marck Script', cursive;
+
+}
+
+body{
+    background: url(./background.jpg);
+    background-size: contain;
+    
+}

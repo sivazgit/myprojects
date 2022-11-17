@@ -1,0 +1,36 @@
+.row{
+    width: 75%;
+    height: 400px;
+    background-color: cadetblue;
+    position: relative;
+}
+
+.col{
+    width: 100px;
+    height: 300px;
+    border: 2px solid black;
+    /* absolute displays content on left end */
+    position: absolute;
+}
+
+#d1{
+    background-color: azure;
+    left: 5px;
+    top: 20px;
+}
+
+#d2{
+    background-color: lightpink;
+    left: 123px;
+    top: 20px;
+}
+#d3{
+    background-color: snow;
+    left: 240px;
+    top: 20px;
+}
+#d4{
+    background-color: blanchedalmond;
+    left: 360px;
+    top: 20px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+</head>
+
+<body>
+    <h3>Register form</h3>
+    <form action="">
+        <label for="uname">Username</label>&nbsp;
+        <!-- &nbsp entity is used to give space -->
+        <input type="text" placeholder="username please" id="uname">
+        <!-- palceholder attribute is used to give a watermark to the textbox -->
+        <br><br>
+
+        <label for="password">Password</label>&nbsp;
+        <input type="password" placeholder="enter a password" id="password">
+        <br><br>
+
+        <label for="dob">Date of birth</label>
+        <input type="date" id="dob">
+        <br><br>
+
+        <label for="address">Address</label>
+        <textarea name="" id="address" cols="25" rows="5"></textarea>
+        <!-- the attribute name is used to refer the javascript code when we submit the page -->
+        <!-- in text area attribute cols represent width and rows represent height -->
+        <br><br>
+
+        <label for="email">Email</label>
+        <input type="email" placeholder="example xyz@xyz.xyz" id="email">
+        <br><br>
+
+        <label for="phn number">Phone Number</label>
+        <input type="text" id="phn number">
+        <!-- we need not to use the numebr value instead of text value -->
+        <br><br>
+
+        <label for="exp">Work experience</label>
+        <input type="number" id="exp" >
+        <br><br>
+
+        <!-- To dispaly gender we have to use radio button which is used to choose any one of  -->
+        <!-- We need to give a common name for those choices because they belongs to same group..here they belongs to a catergory named gender,then we can specify them into that common name "gender" -->
+        <!-- after that we can choose any of them uniquely -->
+        <label for="">Gender</label>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+        <br><br>
+
+
+        <!-- To display a dropdown list -->
+        <!-- we can use "optgroup" tag to group places under a  particular label eg:thrissur will be the label and the kuriachira,kottappuram are the values displayed to be selected-->
+        <label for="dlist">Places</label>
+        <select name="" id="dlist">
+        <option value="">Thrissur</option>
+        <option value="">Cochin</option>
+        <option value="">Wayanad</option>
+        <option value="">Kottayam</option>
+        <option value="">Trivandrum</option>
+        </select>
+        <br><br>
+
+        <!-- To display checkboxes -->
+        <label for="">Course</label>
+        <input type="checkbox" id="m">
+        <label for="m">Mearn</label>
+        <input type="checkbox" id="p">
+        <label for="p">Python</label>
+        <input type="checkbox" id="s">
+        <label for="s">Software Testing</label>
+        <br><br>
+        <button type="submit">Register</button>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,34 @@
+body{
+    background-image: url('./money.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#p1,#p3{
+    color: azure;
+    font-size: larger;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.content{
+    background-color: mediumaquamarine;
+    margin-top: 150px;
+    border-radius: 5px;
+    
+}
+
+input{
+    border-radius: 5px;
+}
+
+#p2,#p4{
+    text-align: left;
+
+}
+
+#link1,#link2{
+    color: indigo;
+}
+
+
+

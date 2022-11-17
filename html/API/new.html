@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-3 mt-5"></div>
+            <div class="col-3"></div>
+            <div class="col-3"></div>
+        </div>
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+function search(){
+    city = cName.value
+    fetch('https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=3dddcc77d8e92df551a8e798987af406')
+    .then(data=>data.json())
+    .then(newdata=>DisplayItems(newdata))
+    }
+
+
+    function DisplayItems(weatherDetails) {
+
+        con_name = weatherDetails.country
+        hum = weatherDetails.humidity
+        pres = weatherDetails.pressure
+        win = weatherDetails.wind
+        cty_name = weatherDetails.name
+
+
+        html_data = ` 
+                    <div class="row">
+                    <div class="col-4">${cty_name}</div>
+                    <div class="col-4 mt-5"></div>
+                    <div class="col-4">Country : ${con_name},
+                           Humidity : ${hum},
+                           Pressue : ${pres},
+                           Wind : ${win} </div>
+        
+                    </div> `
+
+    data.innerHTML = html_data
+
+    

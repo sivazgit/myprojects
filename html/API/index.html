@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API AJAX</title>
+</head>
+<body>
+    <button id="populate">Populate Data</button>
+    <table>
+        <thead>
+
+            <tr>
+            <td>ID</td>
+            <td>NAME</td>
+            <td>USERNAME</td>
+            <td>EMAIL</td></tr>
+
+        </thead>
+        <tbody id="result_area">
+            <tr><td>please wait...</td></tr>
+        </tbody>
+    </table>
+</body>
+    <script>
+
+            var xhr = new XMLHttpRequest();
+         xhr.open('get','https://jsonplaceholder.typicode.com/users');
+        //  xhr.send()
+        //  alert("welcome")
+
+        document.getElementById('populate').addEventListener('click',function(){
+            xhr.send()
+        })
+
+        xhr.onreadystatechange = function(){
+            if(xhr.readyState == 4){
+                if(xhr.status == 200){
+                    var result_data = JSON.parse(xhr.responseText);
+                    var html_content ="";
+                    for(i=0;i<result_data.length;i++){
+                        var current_record = result_data[i]
+                        html_content = html_content+"<tr><td>"+current_record.id+"</td><td>"+current_record.name+"</td><td>"+current_record.username+"</td><td>"+current_record.email+"</td></tr>";
+                    }
+                    document.getElementById("result_area").innerHTML = html_content;
+                }
+                else{
+                    alert("error")
+                }
+            }
+        }
+    </script>
+</html>

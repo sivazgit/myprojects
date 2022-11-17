@@ -1,0 +1,19 @@
+                      API
+
+            1. AJAX - Asynchronous javascript and xml
+
+                1.1 XMLHttpRequest
+
+            2. Response Status
+
+                1xx - Information
+
+                2xx - Success
+
+                3xx - Redirection
+
+                4xx - Client error
+
+                5xx - Server error
+
+                1.2 Fetch

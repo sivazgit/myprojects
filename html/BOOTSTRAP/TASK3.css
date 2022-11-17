@@ -1,0 +1,23 @@
+mark{
+    font-size: 40px;
+    color: midnightblue;
+    font-family: 'Megrim', cursive;
+    font-weight: bolder;
+}
+
+.carousel-caption:hover{
+    font-size: 30px;
+}
+
+kbd{
+    font-size:xx-large;
+}
+
+.row img{
+    border-radius: 20px;
+}
+
+.row img:hover{
+    width: 420px;
+    height: 320px;
+}

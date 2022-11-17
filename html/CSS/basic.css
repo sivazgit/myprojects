@@ -1,0 +1,29 @@
+/* external CSS */
+/* CSS selector method 1 using tag name */
+p{
+    border: 3px solid grey;
+    color: darkblue;
+}
+
+/* CSS selector method 2 using id */
+
+#p1{
+       border: 3px double yellow;
+       font-size: 35px;
+}
+
+/* CSS selector method 3 using class */
+.c1{
+    font-style: italic;
+}
+
+
+/* universal selector * which is used to select the whole tag of the web page, */
+*{
+    text-align: center;
+}
+
+h2,h3,h4{
+    background-color: teal;
+}
+

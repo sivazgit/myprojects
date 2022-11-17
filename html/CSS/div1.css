@@ -1,0 +1,24 @@
+div{
+    width: 50%;
+    height: 200px;
+    background-color: skyblue;
+
+}
+/* if we mention the width of webpage content in % it will display userfriendly, when browser expands/compress the content will be shown effectively */
+
+p{
+    color: indigo;
+}
+/* Descendant selector */
+div p{
+    text-align: center;
+    text-decoration: underline;
+}
+div #p1{
+    color: red;
+}
+
+body{
+    background-image: url(./background.jpg);
+    background-size: cover;
+}

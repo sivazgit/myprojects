@@ -1,0 +1,26 @@
+div{
+    background-color:pink;
+    width: 24%;
+    height:500px;
+    float: left;
+    border: 2px solid rgb(224, 207, 207);
+    margin:2px;
+    border-radius: 20px;
+}
+h1{
+    background-color:cornflowerblue;
+    text-align: center;
+    color: indigo;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+img{
+    width: 100%;
+    height: 50%;
+    border-radius: 7%;
+}
+p{
+    text-align: center;
+    color: black;
+}

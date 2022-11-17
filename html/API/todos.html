@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODOS</title>
+</head>
+<body>
+    <h1>All TODOs</h1>
+        <table>
+
+            <thead>
+                <tr>
+                <th>User Id</th>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Completed</th>
+            </tr>
+            </thead>
+
+            <tbody id="result">
+
+            </tbody>
+        </table>
+    
+</body>
+    <script src="">
+        // AJAX call using XMLHttpRequest
+
+        // 1. Create object class XMLHHttpRequest
+
+        var req = new XMLHttpRequest()
+
+        // 2. Connect OR Call api using the created method
+        req.open('get','https://jsonplaceholder.typicode.com/todos')
+
+        // 3. Send request to server
+        req.send()
+
+        // 4. Update request onReadyStateChange
+        req.onreadystatechange =()=>{
+        if(req.readyState == 4){
+          if(req.status>199 && req.status<300){
+                console.log(req.responseText);
+        }
+        }
+    }
+    
+    </script>
+</html>

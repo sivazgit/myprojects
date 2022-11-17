@@ -1,0 +1,62 @@
+form{
+    background:#d2f7f7;
+    border-radius: 5px;
+}
+#aid{
+    font-size: 12px;
+}
+input{
+    width: 98%;
+    height: 30px;
+}
+a{
+    float: right;
+    text-decoration: none;
+}
+
+button{
+    width: 98%;
+    height: 30px;
+    background-color:#bd8737;
+    border: 0px none;
+    border-radius: 5px;
+    color: aqua;
+}
+
+h4{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+div{
+    font-size: 14px;
+}
+
+.cls button{
+    width: 98%;
+    height: 40px;
+    font-size: 14px;
+    
+}
+
+
+.cls a{
+    float:none;
+    
+}
+
+.foot a{
+    float: none;
+    font-size: 12px;
+    
+}
+
+#aid1{
+    color: black;
+}
+
+.foot #aid1:hover{
+    color:blue;
+
+}
